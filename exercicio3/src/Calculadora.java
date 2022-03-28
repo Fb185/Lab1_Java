@@ -1,6 +1,4 @@
 public class Calculadora {
-    public static void main(String[] args) {
-    }
 
     // a)
     Calculadora() {
@@ -8,19 +6,19 @@ public class Calculadora {
 
     // b)
     //
-    double add(double num1, double num2) {
+    public double add(double num1, double num2) {
         return num1 + num2;
     }
 
-    double sub(double num1, double num2) {
+    public double sub(double num1, double num2) {
         return num1 - num2;
     }
 
-    double mult(double num1, double num2) {
+    public double mult(double num1, double num2) {
         return num1 * num2;
     }
 
-    double div(double num1, double num2) {
+    public double div(double num1, double num2) {
         return num1 / num2;
     }
 }
