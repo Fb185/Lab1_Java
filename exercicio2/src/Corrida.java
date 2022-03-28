@@ -17,8 +17,10 @@ public class Corrida {
         condutor2.setIdade(27);
         condutor2.setDestreza(67);
 
-        carro1.ligar();
-        carro2.ligar();
+        carro1.acelerar(); // teste para ver se a mensagem de erro aparece
+        carro2.acelerar(); // teste para ver se a mensagem de erro aparece
+        carro1.ligar(); // liga carro1
+        carro2.ligar(); // liga carro2
 
         carro1.acelerar();
         carro2.acelerar();
